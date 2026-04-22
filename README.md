@@ -29,6 +29,8 @@ https://github.com/steffolino/systemfehler
 
 ### Work with me
 
+https://stefanstretz.de
+
 I’m available for:
 - search system design (Elasticsearch)
 - RAG / semantic search
