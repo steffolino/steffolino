@@ -1,112 +1,131 @@
 # Stefan Stretz
 
-I design and build full-stack frontend architectures for complex data, search, and AI-assisted applications.
+I design and build frontend architectures for complex data, search, and AI-assisted products.
 
-My work sits where product UI, retrieval systems, and implementation detail meet: interfaces for large datasets, explainable search, semantic retrieval, structured knowledge platforms, and tools that make system behavior understandable to users.
+My work combines product design, frontend engineering, retrieval systems, and data architecture. I focus on applications that help users explore large datasets, understand search results, evaluate evidence, and work effectively with complex information.
+
+I contribute across the full product lifecycle: from requirements analysis and interaction design to technical architecture, implementation, integration, and evaluation.
 
 ## Focus
 
-- Full-stack Dev and frontend architecture with Vue, Nuxt, TypeScript, APIs, and data pipelines
-- Requirements engineering for complex products: stakeholder goals, essential use cases, user stories, acceptance criteria, and prioritization
-- Search UX and retrieval interfaces for complex domains
-- Elasticsearch, semantic search, RAG, vector retrieval, and ranking workflows
-- Data-heavy product UI: filtering, comparison, dashboards, metadata views, evidence panels
-- AI-assisted workflows that expose sources, confidence, diagnostics, and user control
+* Frontend and full-stack architecture with Vue, Nuxt, TypeScript, APIs, and data pipelines
+* Requirements engineering for complex products, including stakeholder analysis, essential use cases, user stories, acceptance criteria, and prioritization
+* Search UX and retrieval interfaces for specialist and data-intensive domains
+* Elasticsearch, semantic search, RAG, vector retrieval, ranking, and retrieval evaluation
+* Data-heavy interfaces for filtering, comparison, dashboards, metadata exploration, and evidence review
+* AI-assisted workflows that expose sources, uncertainty, diagnostics, and user control
 
 ## Selected Work
 
-### AVefi - Research Platform For Audiovisual Data
+### AVefi — Research Platform for Audiovisual Data
 
-Research infrastructure for audiovisual metadata and film-related materials.
+Research infrastructure for the discovery, integration, and exploration of audiovisual metadata and film-related materials.
 
-- Complex search and discovery across hierarchical metadata
-- Vue/Nuxt frontend architecture for data-heavy research workflows
-- Elasticsearch-backed search and structured result presentation
-- Focus on usability, metadata clarity, and domain expert workflows
+* Designed search, navigation, and comparison workflows for hierarchical and heterogeneous metadata
+* Developed the Vue and Nuxt frontend architecture for complex research and data-management use cases
+* Integrated Elasticsearch-backed search with structured results and domain-specific filtering
 
 https://github.com/AV-EFI
 
-### local-rag - Local Project RAG Assistant
+### local-rag — Local Project RAG Assistant
 
-Local, project-specific RAG system for developer and research workflows.
+A local retrieval-augmented generation system for software-development and research workflows.
 
-- Qdrant + Ollama retrieval pipeline with strict project separation
-- Code-aware ranking, HyDE, source weighting, and retrieval-only modes
-- MCP tools for IDE assistant workflows, feedback capture, and self-optimization
-- Benchmark and real-question suites for retrieval quality and profile tuning
+* Built a Qdrant- and Ollama-based retrieval pipeline with strict project separation and configurable search profiles
+* Implemented code-aware ranking, HyDE, source weighting, retrieval-only modes, and diagnostics
+* Developed MCP tools and benchmark suites for IDE integration, feedback capture, and retrieval evaluation
 
 https://github.com/steffolino/local-rag
 
-### systemfehler - Structured Social Knowledge Platform
+### systemfehler — Structured Social Knowledge Platform
 
-Knowledge platform for German social services, benefits, aid programs, organizations, and support contacts.
+A structured knowledge platform for German social services, public benefits, aid programs, organizations, and support contacts.
 
-- LLM-ready structured data architecture
-- Crawling, enrichment, moderation, and evidence-aware retrieval pipelines
-- Official, assistive, and contact answer lanes for social-service guidance
-- Easy German fallbacks, answer-shape guards, and retrieval diagnostics
+* Designed an LLM-ready data model for structured, source-based social-service information
+* Built crawling, enrichment, moderation, validation, and evidence-aware retrieval pipelines
+* Added distinct answer paths, plain-language fallbacks, source transparency, and retrieval diagnostics
 
 https://github.com/steffolino/systemfehler
 
-### sandra-loo - Civic Data And Retrieval Product
+### Ortslage — Municipal Situation and Data Platform
 
-Open civic PWA for finding, reviewing, and reporting public toilets in German cities.
+An in-progress GovTech platform for combining municipal data, local signals, and external data sources in a shared operational view.
 
-- Community-driven public-data product with multilingual UX
-- Structured location data, user reports, and contribution workflow
-- Product UI for maps, civic data, reviews, and accessibility-relevant information
+* Integrates administrative, mobility, event, sensor, infrastructure, and public data in a map-based interface
+* Supports tenant-specific datasets, configurable imports, external interfaces, and independent data overlays
+* Makes indicators traceable by exposing their sources, assumptions, and contributing signals
+
+**Status:** In progress
+
+### inflowencer — Tourism Flow Analysis POC
+
+A proof of concept for analysing tourism activity and potential visitor-flow patterns using publicly available social-media signals.
+
+* Visualizes geographic and time-based activity patterns through heatmaps and interactive exploration
+* Processes location-relevant public content through collection, classification, and aggregation pipelines
+* Supports municipal data overlays and communicates uncertainty rather than presenting inferred activity as precise measurement
+
+https://inflowencer.stefanstretz.de
+
+### sandra-loo — Civic Data and Retrieval Product
+
+An open civic PWA for finding, reviewing, and reporting public toilets in German cities.
+
+* Combines structured location data, community contributions, reviews, and public information
+* Provides multilingual, map-based discovery and contribution workflows
+* Supports accessibility-relevant information and user-submitted updates
 
 https://github.com/steffolino/sandra-loo
 
-### TrollGuard - Local Browser Extension For Comment Analysis
+### TrollGuard — Local Browser Extension for Comment Analysis
 
-Chrome and Firefox extension prototype for privacy-first comment-risk detection.
+A Chrome and Firefox extension prototype for privacy-first analysis of potentially harmful or risky online comments.
 
-- Local-only rule-based analysis; no comment text leaves the browser
-- Content scripts, popup UI, MV3 background worker, and platform adapters
-- Inline overlays for visible comments without modifying original content
-- Safety boundaries around suggestions, false positives, and user control
+* Performs rule-based analysis locally in the browser without transmitting comment text
+* Uses content scripts, an MV3 background worker, platform adapters, and contextual overlays
+* Includes safeguards for false positives, user control, and transparent, non-authoritative recommendations
 
 https://github.com/steffolino/trollguard-extension
 
-### TheGame - UI/UX Game Experiment
+### TheGame — UI/UX Game Experiment
 
-Playable Nuxt/Vue survival roguelite card-game MVP used as an interaction-design experiment.
+A playable Nuxt and Vue survival roguelite card-game MVP developed as an interaction-design and state-management experiment.
 
-- Draft flow, rival groups, daily actions, d6 resolution, events, and recruitment
-- Data-driven game rules with typed Vue/Nuxt UI components
-- Visible probability, roll math, before/after state changes, and outcome feedback
-- Useful testbed for complex state, progressive disclosure, and player-facing system clarity
+* Implements drafting, rival groups, daily actions, dice-based resolution, events, recruitment, and progression
+* Uses typed, data-driven game rules and reusable Vue and Nuxt components
+* Makes probabilities, calculations, state transitions, and outcomes visible to the player
 
 https://github.com/steffolino/thegame
 
 ## Other Experiments
 
-- Leipzig Open Data: 3D civic-data visualization with ArcGIS, NO2 sampler timelines, and map-driven exploration
-- LLM UI Benchmark: controlled local prompt comparison for UI generation quality, accessibility, and instruction-following
-- Knowledge graph editor: domain-expert editing UX for structured graph data without requiring RDF/SPARQL knowledge
+* **Leipzig Open Data:** 3D civic-data visualization using ArcGIS, nitrogen-dioxide measurement timelines, and map-based exploration
+* **LLM UI Benchmark:** Controlled local evaluation of UI generation quality, accessibility, consistency, and instruction-following
+* **Knowledge Graph Editor:** Domain-expert editing interface for structured graph data without requiring knowledge of RDF or SPARQL
 
 ## How I Work
 
-I care about frontend architecture as a product capability: clear state models, resilient data loading, accessible controls, predictable navigation, and interfaces that help users understand why a system returned a result or made a recommendation.
+I treat frontend architecture as a core product capability.
 
-Before implementation, I like to make the problem explicit:
+This includes clear state models, resilient data loading, accessible interaction patterns, predictable navigation, and interfaces that help users understand how a result, recommendation, or system state was produced.
 
-- Identify stakeholders, user groups, constraints, and decision points
-- Map essential use cases before jumping into screen-level UI
-- Turn fuzzy needs into user stories, acceptance criteria, and testable workflows
-- Separate business rules, user goals, edge cases, and implementation assumptions
-- Prioritize with stakeholders so delivery decisions are visible instead of accidental
+Before implementation, I make the problem explicit:
 
-For AI and search systems, I usually work from the evidence outward:
+* Identify stakeholders, user groups, constraints, risks, and decision points
+* Define essential use cases before designing individual screens
+* Translate ambiguous requirements into user stories, acceptance criteria, and testable workflows
+* Separate business rules, user goals, edge cases, and technical assumptions
+* Make priorities and trade-offs visible to stakeholders
 
-- What sources exist?
-- How are they ranked?
-- What should the UI reveal?
-- Where can users inspect, compare, correct, or reject the result?
-- Which failure states need to be explicit?
+For search and AI-assisted systems, I work from the available evidence:
 
-That combination matters because complex systems rarely fail only in code. They also fail when requirements are ambiguous, stakeholders are misaligned, or the UI exposes implementation detail instead of user intent.
+* Which sources are available?
+* How are results selected and ranked?
+* Which assumptions and limitations should the interface expose?
+* Where can users inspect, compare, correct, or reject a result?
+* Which failure states need to be visible and understandable?
+
+Complex systems rarely fail because of code alone. They also fail when requirements remain ambiguous, responsibilities are unclear, stakeholders are misaligned, or the interface exposes technical implementation details instead of supporting user goals.
 
 ## Work With Me
 
@@ -114,14 +133,15 @@ Portfolio: https://stefanstretz.de
 
 Available for:
 
-- Full-stack frontend architecture for complex data products
-- Requirements engineering, essential use cases, and stakeholder workshop support
-- Search UX and Elasticsearch-backed interfaces
-- RAG, semantic search, and retrieval evaluation
-- Vue/Nuxt product development
-- Data-heavy dashboards, metadata tools, and AI-assisted workflows
+* Frontend and full-stack architecture for complex data products
+* Requirements engineering, essential use cases, and stakeholder workshops
+* Search UX and Elasticsearch-backed applications
+* RAG, semantic search, ranking, and retrieval evaluation
+* Vue and Nuxt product development
+* Data-heavy dashboards, metadata tools, and AI-assisted workflows
 
 Upwork:
 https://www.upwork.com/freelancers/~010d9cdbf11b00a5ca
+https://www.freelance.de/freelancer/393980-UX-Engineer-Frontend-Developer-HCI-Specialist
 
-Also open to direct contact.
+Also available for direct project enquiries.
